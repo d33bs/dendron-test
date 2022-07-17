@@ -1,0 +1,28 @@
+{
+  "roots": [
+    {
+      "key": "7h0788u2k74g4mumzjankgt",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "z9gf5ph29ilw48iz2anqd2k",
+          "title": "A New Note",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "navExclude": false,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "7h0788u2k74g4mumzjankgt": null,
+    "z9gf5ph29ilw48iz2anqd2k": "7h0788u2k74g4mumzjankgt"
+  }
+}
