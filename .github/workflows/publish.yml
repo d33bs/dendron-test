@@ -30,7 +30,7 @@ jobs:
       run: yarn
 
     - name: Initialize or pull nextjs template
-      run: "(test -d docs/.next) && (echo 'updating dendron next...' && cd docs/.next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init)"
+      run: "(test -d docs/.next) && (echo 'updating dendron next...' && cd docs/.next && git reset --hard && git pull && yarn && cd ..) || (echo 'init dendron next' && yarn dendron publish init --wsRoot docs)"
 
     - name: Restore Next cache
       uses: actions/cache@v2
